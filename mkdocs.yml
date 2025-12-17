@@ -2,6 +2,8 @@ site_name: Mike Medina Documentation
 site_url: https://moabdib2000.github.io
 
 theme:
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
   name: material
   features:
     - navigation.footer
@@ -11,8 +13,8 @@ theme:
       - icon: simple/linkedin
         link: https://www.linkedin.com/in/miguel-angel-medina-lozano/
   copyright: Copyright &copy; 2025 Miguel A. Medina
-  logo: assets/logo.png
-  favicon: assets/favicon.ico
+  
+  
   palette:
     scheme: slate
     primary: green
