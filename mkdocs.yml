@@ -2,6 +2,9 @@ site_name: Mike Medina Documentation
 site_url: https://moabdib2000.github.io
 
 theme:
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
   logo: assets/logo.png
   favicon: assets/favicon.ico
   name: material
