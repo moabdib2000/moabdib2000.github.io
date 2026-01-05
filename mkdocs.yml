@@ -1,0 +1,80 @@
+site_name: Miguel Medina | Ciberseguridad
+site_description: Especialista en seguridad informática y gestión IT
+site_author: Miguel Medina
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  
+  # Paleta Orange/Gris
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: grey
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: grey
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  
+  # Fuentes modernas
+  font:
+    text: Inter
+    code: JetBrains Mono
+  
+  # Icono temático (seguridad + código)
+  icon:
+    repo: fontawesome/brands/github
+    logo: fontawesome/solid/user-secret
+  
+  # Características
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+  
+  # Logo personalizado
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+
+# Extras sociales con colores temáticos
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tu-usuario
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/miguel-angel-medina-lozano
+      name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:info@miguelmedina.es
+      name: Email
+    - icon: fontawesome/solid/terminal
+      link: https://tryhackme.com/p/tu-perfil
+      name: TryHackMe
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - def_list
