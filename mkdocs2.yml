@@ -1,5 +1,8 @@
 site_name: Mike Medina Documentation
 site_url: https://moabdib2000.github.io
+site_author: Miguel Medina
+- Proyectos:
+    - Repositorio hybrid-soc-lab: https://github.com/moabdib2000/hybrid-soc-lab
 
 theme:
   icon:
