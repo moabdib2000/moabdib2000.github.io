@@ -1,36 +1,73 @@
-# Miguel Medina
+# <span class="title-gradient-orange">Miguel Medina</span>
 
 ¡Hola! 
-Soy Miguel Ángel Medina, profesional con una trayectoria diversa y una pasión desde niño por la tecnología y la informática. 
-Mi carrera combina experiencia en gestión comercial y administrativa con un enfoque técnico, habiendo encontrado mi vocación en el mundo de la ciberseguridad y las soluciones IT.
+Soy <span class="orange-text">Miguel Ángel Medina</span>, profesional con una trayectoria diversa y una pasión <span class="bg-orange-soft">desde niño</span> por la tecnología y la informática. 
+Mi carrera combina experiencia en <span class="grey-text">gestión comercial y administrativa</span> con un enfoque técnico, habiendo encontrado mi vocación en el mundo de la <span class="text-orange-dark">ciberseguridad</span> y las soluciones IT.
 
-### Sobre mí
+## <span class="title-business-card fade-in-up">👤 Sobre mí</span>
 
-Mi perfil es híbrido: cuento con una sólida base en diseño gráfico y maquetación, tanto Indesign, Photoshop, Illustrator, Corel.
+Mi perfil es <span class="title-modern-border">híbrido</span>: cuento con una sólida base en <span class="bg-grey-soft">diseño gráfico y maquetación</span>, tanto Indesign, Photoshop, Illustrator, Corel.
 
-También me he encargado de gestión de cuentas, control presupuestario y optimización de procesos comerciales, complementada con habilidades técnicas en soporte y, más recientemente, realicé un curso bootcamp de especialización en ciberseguridad. Me considero una persona proactiva, orientada a resultados y con una gran capacidad para conectar las necesidades del negocio con soluciones tecnológicas efectivas.
+También me he encargado de <span class="grey-text">gestión de cuentas</span>, control presupuestario y optimización de procesos comerciales, complementada con <span class="orange-text">habilidades técnicas</span> en soporte y, más recientemente, realicé un <span class="bg-gradient-orange">curso bootcamp de especialización en ciberseguridad</span>. Me considero una persona <span class="text-orange">proactiva</span>, orientada a resultados y con una gran capacidad para conectar las necesidades del negocio con soluciones tecnológicas efectivas.
 
-### Habilidades
+## <span class="title-orange-underline">💼 Habilidades</span>
 
-* **Ciberseguridad:** Pentesting, Hacking Ético, SIEM, Inteligencia en Amenazas, Respuesta a Incidentes, Análisis Forense, Normativa y Compliance.
-* **Gestión y Administración:** Control presupuestario, compras, gestión de cartera de clientes y administración con herramientas CRM/ERP.
-* **Tecnología y Sistemas:** Manejo de sistemas operativos Windows, Mac y Linux. Conocimientos en diseño gráfico (Adobe Creative Suite: InDesign, Photoshop, Illustrator).
-* **Habilidades Transversales:** Coordinación con equipos técnicos, trato con clientes corporativos, optimización de procesos y una fuerte capacidad de aprendizaje.
+<div class="skills-container">
 
-### Mi camino y próximos proyectos
+### <span class="title-with-badge">🛡️ Ciberseguridad</span>
+* <span class="skill-item">**Pentesting** - Pruebas de penetración en entornos controlados</span>
+* <span class="skill-item">**Hacking Ético** - Evaluación de seguridad desde perspectiva atacante</span>
+* <span class="skill-item">**SIEM** - Monitorización y gestión de eventos de seguridad</span>
+* <span class="skill-item">**Inteligencia en Amenazas** - Análisis y prevención de amenazas</span>
+* <span class="skill-item">**Respuesta a Incidentes** - Protocolos y acciones ante brechas</span>
+* <span class="skill-item">**Análisis Forense** - Investigación post-incidente</span>
+* <span class="skill-item">**Normativa y Compliance** - Cumplimiento normativo (RGPD, LOPD)</span>
 
-Mi formación reciente en ciberseguridad a través de un bootcamp intensivo ha consolidado mi transición y curiosidad hacia el ámbito IT. Estoy enfocado en desarrollar proyectos prácticos que apliquen estos conocimientos, especialmente en áreas como:
+### <span class="title-with-badge">📊 Gestión y Administración</span>
+* <span class="skill-item">**Control presupuestario** - Gestión y optimización de recursos</span>
+* <span class="skill-item">**Compras** - Procesamiento y gestión de adquisiciones</span>
+* <span class="skill-item">**Gestión de cartera de clientes** - CRM y relaciones comerciales</span>
+* <span class="skill-item">**Administración** con herramientas CRM/ERP</span>
 
-* Análisis de vulnerabilidades y pruebas de penetración en entornos controlados.
-* Creación de laboratorios para practicar respuestas a incidentes y análisis forense.
-* Automatización de tareas de seguridad y monitorización.
-* Desarrollo de scripts y herramientas que ayuden a optimizar procesos tanto técnicos como administrativos.
+### <span class="title-with-badge">💻 Tecnología y Sistemas</span>
+* <span class="skill-item">**Sistemas Operativos** - Windows, Mac y Linux</span>
+* <span class="skill-item">**Diseño Gráfico** - Adobe Creative Suite: InDesign, Photoshop, Illustrator</span>
 
-Este espacio servirá para documentar mi aprendizaje, compartir los proyectos en los que esté trabajando y contribuir a la comunidad.
+### <span class="title-with-badge">🌟 Habilidades Transversales</span>
+* <span class="skill-item">**Coordinación con equipos técnicos**</span>
+* <span class="skill-item">**Trato con clientes corporativos**</span>
+* <span class="skill-item">**Optimización de procesos**</span>
+* <span class="skill-item">**Fuerte capacidad de aprendizaje**</span>
 
-### Contacta conmigo 
+</div>
 
-* **Email:** info@miguelmedina.es
-* **LinkedIn:** [linkedin.com/in/miguel-angel-medina-lozano](https://linkedin.com/in/miguel-angel-medina-lozano)
+## <span class="title-gradient-mix">🚀 Mi camino y próximos proyectos</span>
 
-Gracias por visitar mi pequeño espacio !! Siempre estoy abierto a intercambiar ideas y colaborar en proyectos interesantes. :D 
+Mi formación reciente en <span class="orange-badge">ciberseguridad</span> a través de un bootcamp intensivo ha consolidado mi transición y curiosidad hacia el ámbito IT. Estoy enfocado en desarrollar <span class="bg-orange-soft">proyectos prácticos</span> que apliquen estos conocimientos, especialmente en áreas como:
+
+* <span class="project-item">🔍 **Análisis de vulnerabilidades** y pruebas de penetración en entornos controlados.</span>
+* <span class="project-item">🖥️ **Creación de laboratorios** para practicar respuestas a incidentes y análisis forense.</span>
+* <span class="project-item">⚙️ **Automatización de tareas** de seguridad y monitorización.</span>
+* <span class="project-item">📝 **Desarrollo de scripts y herramientas** que ayuden a optimizar procesos tanto técnicos como administrativos.</span>
+
+Este espacio servirá para <span class="text-orange">documentar mi aprendizaje</span>, compartir los proyectos en los que esté trabajando y contribuir a la comunidad.
+
+## <span class="title-modern-border">📞 Contacta conmigo</span>
+
+<div class="contact-grid">
+
+* **📧 Email:** <span class="contact-highlight">info@miguelmedina.es</span>
+* **💼 LinkedIn:** <span class="contact-highlight">[linkedin.com/in/miguel-angel-medina-lozano](https://linkedin.com/in/miguel-angel-medina-lozano)</span>
+* **🌐 Portfolio:** <span class="contact-highlight">En construcción 🚧</span>
+
+</div>
+
+---
+
+### <span class="title-minimal-line">✨ Gracias por visitar</span>
+
+¡Gracias por visitar mi pequeño espacio! Siempre estoy abierto a <span class="text-orange">intercambiar ideas</span> y <span class="text-orange">colaborar</span> en proyectos interesantes. :D
+
+<center>
+<a href="mailto:info@miguelmedina.es" class="btn-modern">✨ Enviar mensaje</a>
+</center>
