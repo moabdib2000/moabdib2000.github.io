@@ -4,31 +4,35 @@ name: Deploy MkDocs
 on:
   push:
     branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      
+      - name: Checkout
+        uses: actions/checkout@v4
+        
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
           
       - name: Install dependencies
         run: |
           pip install mkdocs-material
-          pip install mkdocs-git-revision-date-localized-plugin
+          pip install pymdown-extensions
+          pip install mkdocs-minify-plugin
           
-      - name: Build site
+      - name: Build
         run: mkdocs build --clean --strict
           
-      - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+          force_orphan: true
