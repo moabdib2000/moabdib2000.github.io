@@ -11,4 +11,5 @@ sequenceDiagram
   Terminal-->>Server: Everything is OK
   Terminal->>Database: Request customer data
   Database-->>Terminal: Customer data
+
 ```
