@@ -14,14 +14,7 @@ También me he encargado de <span class="grey-text">gestión de cuentas</span>, 
 
 <div class="skills-container">
 
-### <span class="title-with-badge">🛡️ Ciberseguridad</span>
-* <span class="skill-item">**Pentesting** - Pruebas de penetración en entornos controlados</span>
-* <span class="skill-item">**Hacking Ético** - Evaluación de seguridad desde perspectiva atacante</span>
-* <span class="skill-item">**SIEM** - Monitorización y gestión de eventos de seguridad</span>
-* <span class="skill-item">**Inteligencia en Amenazas** - Análisis y prevención de amenazas</span>
-* <span class="skill-item">**Respuesta a Incidentes** - Protocolos y acciones ante brechas</span>
-* <span class="skill-item">**Análisis Forense** - Investigación post-incidente</span>
-* <span class="skill-item">**Normativa y Compliance** - Cumplimiento normativo (RGPD, LOPD)</span>
+
 
 ### <span class="title-with-badge">📊 Gestión y Administración</span>
 * <span class="skill-item">**Control presupuestario** - Gestión y optimización de recursos</span>
@@ -38,6 +31,15 @@ También me he encargado de <span class="grey-text">gestión de cuentas</span>, 
 * <span class="skill-item">**Trato con clientes corporativos**</span>
 * <span class="skill-item">**Optimización de procesos**</span>
 * <span class="skill-item">**Fuerte capacidad de aprendizaje**</span>
+
+### <span class="title-with-badge">🛡️ Ciberseguridad</span>
+* <span class="skill-item">**Pentesting** - Pruebas de penetración en entornos controlados</span>
+* <span class="skill-item">**Hacking Ético** - Evaluación de seguridad desde perspectiva atacante</span>
+* <span class="skill-item">**SIEM** - Monitorización y gestión de eventos de seguridad</span>
+* <span class="skill-item">**Inteligencia en Amenazas** - Análisis y prevención de amenazas</span>
+* <span class="skill-item">**Respuesta a Incidentes** - Protocolos y acciones ante brechas</span>
+* <span class="skill-item">**Análisis Forense** - Investigación post-incidente</span>
+* <span class="skill-item">**Normativa y Compliance** - Cumplimiento normativo (RGPD, LOPD)</span>
 
 </div>
 
