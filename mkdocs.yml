@@ -31,14 +31,14 @@ palette:
         name: Modo claro
   
   # Fuentes modernas
-  font:
-    text: Inter
-    code: JetBrains Mono
+    font:
+      text: Inter
+      code: JetBrains Mono
   
   # Icono temático (seguridad + código)
-  icon:
-    repo: fontawesome/brands/github
-    logo: fontawesome/solid/user-secret
+    icon:
+      repo: fontawesome/brands/github
+      logo: fontawesome/solid/user-secret
   
   # Características
   features:
