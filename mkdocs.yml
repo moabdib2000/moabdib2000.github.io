@@ -68,8 +68,12 @@ extra:
       link: mailto:info@miguelmedina.es
       name: Email   
 
+extra_css:
+  - css/extra.css
+  
 # Extensions
 markdown_extensions:
+  - attr_list  #esto es para archivo CSS habilita {:.clase}
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
