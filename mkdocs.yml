@@ -14,22 +14,12 @@ copyright: Copyright &copy; 2025 Miguel A. Medina
   
   # Paleta Orange/Gris
 palette:
-    - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: grey
       accent: deep orange
       toggle:
         icon: material/weather-night
         name: Modo oscuro
-    
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: grey
-      accent: orange
-      toggle:
-        icon: material/weather-sunny
-        name: Modo claro
-  
   # Fuentes modernas
     font:
       text: Inter
