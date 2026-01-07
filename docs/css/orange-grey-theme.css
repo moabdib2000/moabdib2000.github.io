@@ -360,3 +360,206 @@
     transform: translateY(0);
   }
 }
+
+/* ===========================================
+   9. ESTILOS ESPECÍFICOS PARA PERFIL
+   =========================================== */
+
+/* Contenedor de habilidades */
+.skills-container {
+  display: grid;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.skill-item {
+  display: block;
+  padding: 10px 15px;
+  margin: 5px 0;
+  background: linear-gradient(90deg, var(--grey-50), white);
+  border-left: 3px solid var(--orange-400);
+  border-radius: 0 8px 8px 0;
+  transition: all 0.3s ease;
+  color: var(--grey-700);
+}
+
+.skill-item:hover {
+  transform: translateX(5px);
+  background: linear-gradient(90deg, var(--orange-50), white);
+  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.1);
+}
+
+.skill-item strong {
+  color: var(--orange-600);
+}
+
+/* Items de proyecto */
+.project-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  margin: 10px 0;
+  background: white;
+  border: 1px solid var(--grey-200);
+  border-radius: 12px;
+  color: var(--grey-700);
+  transition: all 0.3s ease;
+}
+
+.project-item:hover {
+  border-color: var(--orange-300);
+  box-shadow: 0 6px 20px rgba(255, 152, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.project-item::before {
+  content: '→';
+  color: var(--orange-500);
+  font-weight: bold;
+}
+
+/* Grid de contacto */
+.contact-grid {
+  display: grid;
+  gap: 15px;
+  margin: 25px 0;
+  padding: 25px;
+  background: var(--grey-50);
+  border-radius: 15px;
+  border: 1px solid var(--grey-200);
+}
+
+.contact-highlight {
+  color: var(--orange-600) !important;
+  font-weight: 600;
+  padding: 5px 10px;
+  background: white;
+  border-radius: 6px;
+  display: inline-block;
+  border: 1px solid var(--orange-100);
+}
+
+/* Botón moderno */
+.btn-modern {
+  display: inline-block;
+  background: var(--gradient-orange);
+  color: white !important;
+  padding: 14px 32px;
+  border-radius: 30px;
+  text-decoration: none !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 6px 20px rgba(255, 152, 0, 0.3);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin: 20px auto;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-modern:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 12px 30px rgba(255, 152, 0, 0.4);
+  color: white !important;
+}
+
+/* Línea separadora decorativa */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    var(--orange-300) 20%, 
+    var(--orange-500) 50%, 
+    var(--orange-300) 80%, 
+    transparent 100%
+  );
+  margin: 40px 0;
+}
+
+/* Ajustes para listas */
+.md-typeset ul li {
+  margin-bottom: 8px;
+}
+
+.md-typeset ul li::marker {
+  color: var(--orange-500);
+}
+
+/* Tarjetas flotantes */
+.floating-card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border: 1px solid var(--grey-200);
+  transition: all 0.3s ease;
+}
+
+.floating-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(255, 152, 0, 0.12);
+}
+
+/* Badge de estado */
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.status-learning {
+  background: linear-gradient(90deg, var(--orange-100), var(--orange-200));
+  color: var(--orange-900);
+}
+
+.status-expert {
+  background: linear-gradient(90deg, var(--grey-100), var(--grey-300));
+  color: var(--grey-800);
+}
+
+/* Estilo para citas */
+.profile-quote {
+  font-style: italic;
+  padding: 25px;
+  background: linear-gradient(90deg, var(--orange-50), transparent);
+  border-left: 4px solid var(--orange-500);
+  border-radius: 0 12px 12px 0;
+  color: var(--grey-700);
+  margin: 25px 0;
+  position: relative;
+}
+
+.profile-quote::before {
+  content: '"';
+  font-size: 4em;
+  color: var(--orange-300);
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  opacity: 0.5;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-grid {
+    padding: 15px;
+  }
+  
+  .btn-modern {
+    padding: 12px 24px;
+    font-size: 0.9em;
+  }
+  
+  .project-item {
+    padding: 10px 15px;
+  }
+}
