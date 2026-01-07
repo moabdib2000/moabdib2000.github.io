@@ -5,6 +5,12 @@ site_author: Miguel Medina
 theme:
   name: material
   custom_dir: docs/overrides
+
+features:
+    - footer
+  
+copyright: Copyright &copy; 2025 Miguel A. Medina
+
   
   # Paleta Orange/Gris
   palette:
