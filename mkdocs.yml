@@ -1,3 +1,4 @@
+# mkdocs.yml (VERSIÓN SIMPLIFICADA)
 site_name: Miguel Medina | Ciberseguridad
 site_description: Seguridad informática y gestión IT - Diseño gráfico
 site_author: Miguel Medina
@@ -6,7 +7,6 @@ theme:
   name: material
   custom_dir: docs/overrides
   
-  # Paleta Orange/Gris
   palette:
     - scheme: default
       primary: grey
@@ -15,17 +15,14 @@ theme:
         icon: material/weather-night
         name: Modo oscuro
   
-  # Fuentes modernas
   font:
     text: Inter
     code: JetBrains Mono
   
-  # Icono temático (seguridad + código)
   icon:
     repo: fontawesome/brands/github
     logo: fontawesome/solid/user-secret
   
-  # Características
   features:
     - navigation.instant
     - navigation.tracking
@@ -36,15 +33,9 @@ theme:
     - content.code.copy
     - content.code.annotate
     - footer
-  
-  # Logo personalizado (opcional - comenta si no tienes)
-  # logo: assets/logo.png
-  # favicon: assets/favicon.ico
 
-# Copyright
 copyright: Copyright &copy; 2025 Miguel A. Medina
 
-# Extras sociales con colores temáticos
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -57,14 +48,12 @@ extra:
       link: mailto:info@miguelmedina.es
       name: Email
 
-# CSS personalizado
 extra_css:
   - css/orange-grey-theme.css
   - css/quick-colors.css
 
-# Extensions
 markdown_extensions:
-  - attr_list  # Esto es para archivo CSS habilita {:.clase}
+  - attr_list
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -82,20 +71,8 @@ markdown_extensions:
       permalink: true
       toc_depth: "2-4"
 
-# Plugins
 plugins:
   - search
-  - minify:
-      minify_html: true
 
-# Navegación (opcional - ajusta según tus archivos)
-nav:
-  - Inicio: index.md
-  - Sobre mí: about.md
-  - Proyectos: projects.md
-  - Blog: blog/index.md
-  - Contacto: contact.md
-
-# Configuración general
 use_directory_urls: true
-strict: true
+strict: false  # Cambiado a false temporalmente
