@@ -46,24 +46,21 @@ theme:
     - content.code.annotate
   
   # Logo personalizado
-  logo: assets/logo.svg
+  logo: assets/logo.png
   favicon: assets/favicon.ico
 
 # Extras sociales con colores temáticos
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/tu-usuario
+      link: https://github.com/moabdib2000
       name: GitHub
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/miguel-angel-medina-lozano
       name: LinkedIn
     - icon: fontawesome/solid/envelope
       link: mailto:info@miguelmedina.es
-      name: Email
-    - icon: fontawesome/solid/terminal
-      link: https://tryhackme.com/p/tu-perfil
-      name: TryHackMe
+      name: Email   
 
 # Extensions
 markdown_extensions:
