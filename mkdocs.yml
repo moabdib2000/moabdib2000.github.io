@@ -4,13 +4,14 @@ site_description: Ciberseguridad y gestión IT
 site_author: Miguel Medina
 
 theme:
+  logo: assets/logo.png
   name: material
   generator: false
   
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: grey
+      primary: teal
       accent: deep orange
       toggle:
         icon: material/brightness-7
@@ -18,7 +19,7 @@ theme:
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: grey
+      primary: teal
       accent: deep orange
       toggle:
         icon: material/brightness-4
@@ -26,10 +27,10 @@ theme:
 
   font:
     text: Roboto
-    code: Roboto Mono
+    code: Fira Code
 
-  icon:
-    logo: material/account-circle
+  #icon:
+   # logo: material/account-circle
 
   features:
     - navigation.instant

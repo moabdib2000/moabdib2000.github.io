@@ -1,4 +1,4 @@
-# Miguel Medina
+# Miguel Ángel Medina
 ### :material-account-tie: Perfil profesional · Ciberseguridad & Gestión IT
 
 Hola, soy **Miguel Ángel Medina**, profesional con experiencia en **gestión comercial**, **diseño gráfico** y en proceso de especialización en **ciberseguridad**.
@@ -53,15 +53,15 @@ Hola, soy **Miguel Ángel Medina**, profesional con experiencia en **gestión co
 ---
 
 !!! tip ":material-rocket-launch: Camino profesional y próximos proyectos"
-    La formación en ciberseguridad consolidó mi transición hacia el ámbito IT.  
-    Actualmente desarrollo proyectos orientados a:
+    La formación en ciberseguridad recibida en el bootcamp organizado por Evolutio e Incibe consolidó mi transición hacia el ámbito IT.  
+    Actualmente desarrollo proyectos orientados a conocimiento de:
 
     - :material-bug: Análisis de vulnerabilidades
     - :material-flask: Creación de laboratorios de prácticas
     - :material-robot: Automatización de tareas
     - :material-code-braces: Desarrollo de scripts
 
-    Este sitio documenta mi evolución y aprendizaje continuo.
+    He montado este sitio para documentar mi evolución y aprendizaje continuo, tanto en diseño, impresión, programación y de todo en general, soy un inquieto de la tecnología :D.
 
 ---
 
@@ -69,7 +69,7 @@ Hola, soy **Miguel Ángel Medina**, profesional con experiencia en **gestión co
 
       - :material-email: **Email** · [info@miguelmedina.es](mailto:info@miguelmedina.es)  
       - :material-linkedin: **LinkedIn** · [Perfil profesional](https://linkedin.com/in/miguel-angel-medina-lozano)  
-      - :material-web: **Portfolio** · En construcción  
+      - :material-web: **Portfolio** · En construcción
 
 [:material-send: Enviar mensaje](mailto:info@miguelmedina.es){ .md-button .md-button--primary }
 
