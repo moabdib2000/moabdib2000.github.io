@@ -1,5 +1,4 @@
-# mkdocs.yml (VERSIÓN SIMPLIFICADA)
-site_name: Miguel Medina | Ciberseguridad
+site_name: Miguel Medina
 site_description: Seguridad informática y gestión IT - Diseño gráfico
 site_author: Miguel Medina
 
@@ -7,22 +6,24 @@ theme:
   name: material
   custom_dir: docs/overrides
   
+  # SOLO MODO OSCURO - sin toggle
   palette:
-    - scheme: default
-      primary: grey
-      accent: deep orange
-      toggle:
-        icon: material/weather-night
-        name: Modo oscuro
+    # Esto fuerza modo oscuro permanente
+    scheme: slate
+    primary: grey
+    accent: deep orange
   
+  # Fuentes optimizadas para modo oscuro
   font:
     text: Inter
     code: JetBrains Mono
   
+  # Iconos visibles en oscuro
   icon:
     repo: fontawesome/brands/github
     logo: fontawesome/solid/user-secret
   
+  # Características (quitamos el toggle de navegación)
   features:
     - navigation.instant
     - navigation.tracking
@@ -33,6 +34,11 @@ theme:
     - content.code.copy
     - content.code.annotate
     - footer
+  
+  # Opcional: forzar tema oscuro también en meta tags
+  # Esto evita que navegadores sugieran modo claro
+  # html-meta:
+  #   "theme-color": "#121212"
 
 copyright: Copyright &copy; 2025 Miguel A. Medina
 
@@ -75,4 +81,4 @@ plugins:
   - search
 
 use_directory_urls: true
-strict: false  # Cambiado a false temporalmente
+strict: false
