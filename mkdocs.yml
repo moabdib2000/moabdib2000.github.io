@@ -77,3 +77,6 @@ extra:
 
 plugins:
   - search
+
+
+  generator: false
