@@ -1,5 +1,4 @@
-## Sequence Diagrams
-
+## Diagrama secuencia BBDD
 ```mermaid
 sequenceDiagram
   autonumber
@@ -11,5 +10,4 @@ sequenceDiagram
   Terminal-->>Server: Everything is OK
   Terminal->>Database: Request customer data
   Database-->>Terminal: Customer data
-
 ```

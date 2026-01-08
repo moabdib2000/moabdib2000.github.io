@@ -1,0 +1,89 @@
+/* ================================
+   AJUSTES DE ESTILO PERSONALIZADOS
+   ================================ */
+
+/* Color de acento coherente */
+:root {
+  --md-accent-fg-color: #ff7043;
+}
+
+/* Tipografía más sobria */
+h1, h2, h3 {
+  font-weight: 500;
+}
+
+/* Admonitions más elegantes */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+}
+
+/* Botones Material */
+.md-typeset .md-button--primary {
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* Botón primario personalizado */
+.md-typeset .md-button--primary {
+  background-color: var(--md-accent-fg-color);
+  color: #000000;
+  border: none;
+}
+
+/* Hover */
+.md-typeset .md-button--primary:hover {
+  background-color: #ff8a65; /* naranja más claro */
+  color: #000000;
+}
+
+/* Icono Material dentro del botón primario en negro */
+.md-typeset .md-button--primary .twemoji svg {
+  fill: #000000;
+}
+
+
+
+/* Código inline */
+.md-typeset code {
+  background-color: rgba(255, 112, 67, 0.12);
+  color: #ff8a65;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Separadores */
+.md-typeset hr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Iconos Material inline en color acento */
+.md-typeset .twemoji svg {
+  fill: var(--md-accent-fg-color);
+}
+
+/* Ocultar icono de las admonitions */
+.md-typeset .admonition-title::before,
+.md-typeset summary::before {
+  display: none;
+}
+
+/* ================================
+   ENLACES EN COLOR ACENTO
+   ================================ */
+
+/* Enlaces normales */
+.md-typeset a:not(.md-button) {
+  color: var(--md-accent-fg-color);
+}
+
+/* Hover */
+.md-typeset a:not(.md-button):hover {
+  color: #ff8a65;
+  text-decoration: underline;
+}
+
+/* Iconos Material inline ligeramente más grandes */
+.md-typeset .twemoji {
+  font-size: 1.2em;
+}

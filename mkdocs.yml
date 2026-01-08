@@ -1,90 +1,78 @@
 site_name: Miguel Medina
-site_description: Seguridad informática y gestión IT - Diseño gráfico
+site_url: https://miguelmedina.es
+site_description: Ciberseguridad y gestión IT
 site_author: Miguel Medina
 
 theme:
   name: material
-  custom_dir: docs/overrides
+  generator: false
   
-  # SOLO MODO OSCURO - sin toggle
   palette:
-    # Esto fuerza modo oscuro permanente
-    scheme: slate
-    primary: grey
-    accent: deep orange
-  
-  # Fuentes optimizadas para modo oscuro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: grey
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: grey
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
   font:
-    text: Inter
-    code: JetBrains Mono
-  
-  # Iconos visibles en oscuro
+    text: Roboto
+    code: Roboto Mono
+
   icon:
-    repo: fontawesome/brands/github
-    logo: fontawesome/solid/user-secret
-  
-  # Características (quitamos el toggle de navegación)
+    logo: material/account-circle
+
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.sections
-    - navigation.expand
     - navigation.top
-    - toc.follow
+    - search.suggest
+    - search.highlight
     - content.code.copy
-    - content.code.annotate
-    - footer
-  
-  # Opcional: forzar tema oscuro también en meta tags
-  # Esto evita que navegadores sugieran modo claro
-  # html-meta:
-  #   "theme-color": "#121212"
 
-copyright: Copyright &copy; 2025 Miguel A. Medina
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/moabdib2000
-      name: GitHub
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/miguel-angel-medina-lozano
-      name: LinkedIn
-    - icon: fontawesome/solid/envelope
-      link: mailto:info@miguelmedina.es
-      name: Email
-
-extra_css:
-  - css/orange-grey-theme.css
-  - css/quick-colors.css
-  - css/icons.css  # Crea este archivo
-  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css  # Opcional
-
-extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/4.0.0/iconfont/material-icons.min.css
-
+  generator: false
 
 markdown_extensions:
-  - attr_list
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
   - admonition
   - pymdownx.details
-  - def_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - toc:
-      permalink: true
-      toc_depth: "2-4"
+  - attr_list
+  - md_in_html
+  - tables
+
+extra_css:
+  - css/stylesheets/extra.css
+
+extra:
+  social:
+    - icon: material/github
+      link: https://github.com/TU_USUARIO
+      name: GitHub
+    - icon: material/linkedin
+      link: https://linkedin.com/in/miguel-angel-medina-lozano
+      name: LinkedIn
+    - icon: material/email-outline
+      link: mailto:info@miguelmedina.es
+      name: Email
 
 plugins:
   - search
-
-use_directory_urls: true
-strict: false
