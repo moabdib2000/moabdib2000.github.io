@@ -1,13 +1,16 @@
-## Diagrama secuencia BBDD
+
+
+esto es un ejemplo de esquema de funcionamiento de petición a una BBDD
+
 ```mermaid
 sequenceDiagram
   autonumber
-  Server->>Terminal: Send request
-  loop Health
-      Terminal->>Terminal: Check for health
+  Servidor->>Terminal: Envía petición
+  loop Salud
+      Terminal->>Terminal: Check
   end
-  Note right of Terminal: System online
-  Terminal-->>Server: Everything is OK
-  Terminal->>Database: Request customer data
-  Database-->>Terminal: Customer data
+  Note right of Terminal: Sistema online
+  Terminal-->>Servidor: Todo OK
+  Terminal->>Database: Pertición datos cliente
+  Database-->>Terminal: Datos cliente data
 ```

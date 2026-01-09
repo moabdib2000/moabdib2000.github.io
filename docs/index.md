@@ -11,10 +11,12 @@ Hola, soy **Miguel Ángel Medina**, profesional con experiencia en **gestión co
 
 ---
 
-!!! tip "FORMACIÓN"
+!!! warning "FORMACIÓN"
 
 !!! tip ":material-shield-lock: Ciberseguridad"
-
+      Curso Intensivo BootCamp Ciberseguridad- Diciembre 2025 - (270 h.) organizado por Cámara de Comercio de Linares y la empresa 
+      [Evolutio](https://www.evolutio.com/), con la colaboración de [INCIBE](https://www.incibe.es/), donde aprendimos bastantes categorías acerca de ciberseguridad.
+    
     - :material-bug-check: **Pentesting** – Pruebas de penetración
     - :material-security: **Hacking ético** – Evaluación de seguridad
     - :material-monitor-eye: **SIEM** – Monitorización de eventos
