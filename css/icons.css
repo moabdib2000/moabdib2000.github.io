@@ -1,0 +1,21 @@
+/* Fuente Material Icons fallback para GitHub Pages */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Fallback si Material Icons no carga */
+.md-icon, .list-icon, .project-icon, .contact-icon {
+  font-family: 'Material Icons', 'FontAwesome', sans-serif;
+}
+
+/* FontAwesome como fallback */
+.md-icon.fa-fallback {
+  font-family: 'FontAwesome';
+}
+
+/* Mapeo de iconos Material -> FontAwesome como fallback */
+.md-icon[data-icon="person"]::before { content: "\f007"; }
+.md-icon[data-icon="work"]::before { content: "\f0b1"; }
+.md-icon[data-icon="security"]::before { content: "\f3ed"; }
+.md-icon[data-icon="rocket_launch"]::before { content: "\f135"; }
+.md-icon[data-icon="contact_mail"]::before { content: "\f0e0"; }
+.md-icon[data-icon="auto_awesome"]::before { content: "\f005"; }
+.md-icon[data-icon="list"]::before { content: "\f03a"; }
