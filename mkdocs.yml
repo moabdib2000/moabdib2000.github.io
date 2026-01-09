@@ -6,6 +6,8 @@ site_author: Miguel Medina
 theme:
   logo: assets/logo.png
   name: material
+  features:
+    - navigation.instant
   generator: false
   
   palette:
@@ -27,7 +29,7 @@ theme:
 
   font:
     text: Roboto
-    code: Fira Code
+    code: Roboto Mono
 
   #icon:
    # logo: material/account-circle
@@ -39,8 +41,6 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-
-  generator: false
 
 markdown_extensions:
   - admonition
